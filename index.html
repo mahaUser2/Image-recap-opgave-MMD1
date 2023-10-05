@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recap: img, srcset, backgroundimage mm</title>
+  </head>
+  <body>
+    <!-- 0: Opsæt link til stylesheet -->
+
+    <!-- 1: Indsæt bgImg.webp som baggrund i body - billedet skal fylde hele body, ikke repeate og være centreret -->
+
+    <!-- 2: i <img> skal I sørge for at der vises birdsmall.webp ved små skærme og birdMedium.webp ved større skærme - I skal anvende srcset til det  -->
+    <!-- 3: særg for <img> lazyloader -->
+
+    <!-- 4: Ekstra: sørg for "fallback" ved webp. I skal bruge <picture> istedet for <img> og levere en fallbackløsning. I har begge fugle som .webp og .jpg -->
+
+    <!-- 5: Ekstra: <img> fylder ikke 100% af skærmen, men det tror browseren. Anvend sizes-attributen til at fortælle browseren at billedet bare fylder 50vw -->
+
+    <article>
+      <h3>Et billede der passer til flere enheder</h3>
+      <img src="./assets/img/birdSmall.jpg" alt="Bird" />
+    </article>
+  </body>
+</html>
